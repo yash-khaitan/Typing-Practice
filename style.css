@@ -1,3 +1,12 @@
+.instruction{
+    margin: auto;
+    width: 400px;
+    
+}
+
+li{
+    margin: 10px 0px;
+}
 
 #content , .writing , #try {
     width:75vw;
@@ -9,9 +18,10 @@
 }
 
 #content{
-    border:2px solid black;
+    /* border:2px solid black; */
     overflow-x: hidden;
     overflow-y: auto;
+   
 }
 
 #practise{
@@ -20,4 +30,18 @@
     text-align: left;
     
     border:2px solid black;
+}
+#lyrics{
+    text-align: left;
+    width: 1024px;
+    border:2px solid black;
+    height: 191px;
+}
+
+#buttons{
+    display: flex;
+}
+
+#mistake{
+    text-align: center;
 }
