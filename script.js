@@ -30,13 +30,13 @@ function check() {
   }
   // else if will turn board green if correct
   else if (ans === ques) {
-    document.getElementById("practise").style.backgroundColor = "green";
-    document.getElementById("lyrics").style.backgroundColor = "green";
+    document.getElementById("practise").style.backgroundColor = "#2ccc2c";
+    document.getElementById("lyrics").style.backgroundColor = "#2ccc2c";
   }
   // else if will turn board red if wrong
   else if (ans != ques) {
-    document.getElementById("practise").style.backgroundColor = "red";
-    document.getElementById("lyrics").style.backgroundColor = "red";
+    document.getElementById("practise").style.backgroundColor = "#d6211a";
+    document.getElementById("lyrics").style.backgroundColor = "#d6211a";
     counter++;
     document.getElementById('mistake').innerHTML = `<b> Mistake = ${counter}  <b>`
   }
@@ -44,7 +44,9 @@ function check() {
 
 
 
-
+function Reset(){
+  window.location.reload();
+}
 
 
 
